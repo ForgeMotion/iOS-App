@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="9525" systemVersion="14F27" minimumToolsVersion="Automatic">
+    <entity name="UserProfile" representedClassName=".UserProfile" syncable="YES">
+        <attribute name="isFactoryDefault" optional="YES" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
+        <attribute name="pBackLimit" attributeType="Integer 16" defaultValueString="80" syncable="YES"/>
+        <attribute name="pBackLimitOn" attributeType="Boolean" defaultValueString="YES" syncable="YES"/>
+        <attribute name="pFwdLimit" attributeType="Integer 16" defaultValueString="80" syncable="YES"/>
+        <attribute name="pFwdLimitOn" attributeType="Boolean" defaultValueString="YES" syncable="YES"/>
+        <attribute name="profileName" attributeType="String" defaultValueString="New Profile" syncable="YES"/>
+        <attribute name="rHanded" attributeType="Boolean" defaultValueString="YES" syncable="YES"/>
+        <attribute name="rLeftLimit" attributeType="Integer 16" defaultValueString="80" syncable="YES"/>
+        <attribute name="rLeftLimitOn" attributeType="Boolean" defaultValueString="YES" syncable="YES"/>
+        <attribute name="rRightLimit" attributeType="Integer 16" defaultValueString="80" syncable="YES"/>
+        <attribute name="rRightLimitOn" attributeType="Boolean" defaultValueString="YES" syncable="YES"/>
+        <attribute name="yBackLimit" attributeType="Integer 16" defaultValueString="600" syncable="YES"/>
+        <attribute name="yBackLimitOn" attributeType="Boolean" defaultValueString="YES" syncable="YES"/>
+        <attribute name="yFwdLimit" attributeType="Integer 16" defaultValueString="400" syncable="YES"/>
+        <attribute name="yFwdLimitOn" attributeType="Boolean" defaultValueString="YES" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="UserProfile" positionX="-63" positionY="-18" width="128" height="270"/>
+    </elements>
+</model>

@@ -1,0 +1,647 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B91244C21C3C7ACC00D68B33 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B91244C11C3C7ACC00D68B33 /* AppDelegate.swift */; };
+		B91244C71C3C7ACC00D68B33 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B91244C51C3C7ACC00D68B33 /* Main.storyboard */; };
+		B91244CA1C3C7ACC00D68B33 /* Swing_Forge_Settings.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B91244C81C3C7ACC00D68B33 /* Swing_Forge_Settings.xcdatamodeld */; };
+		B91244CC1C3C7ACC00D68B33 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B91244CB1C3C7ACC00D68B33 /* Assets.xcassets */; };
+		B91244CF1C3C7ACC00D68B33 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B91244CD1C3C7ACC00D68B33 /* LaunchScreen.storyboard */; };
+		B91244DA1C3C7ACC00D68B33 /* Swing_Forge_SettingsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B91244D91C3C7ACC00D68B33 /* Swing_Forge_SettingsTests.swift */; };
+		B91244E51C3C7ACC00D68B33 /* Swing_Forge_SettingsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B91244E41C3C7ACC00D68B33 /* Swing_Forge_SettingsUITests.swift */; };
+		B91244F81C3C7E4800D68B33 /* ProfileListTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B91244F71C3C7E4800D68B33 /* ProfileListTVC.swift */; };
+		B9196B801C41DD6A001A49E6 /* ProfileSettingsTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9196B7F1C41DD6A001A49E6 /* ProfileSettingsTVC.swift */; };
+		B9196B861C42CF1F001A49E6 /* CoreDataMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9196B851C42CF1F001A49E6 /* CoreDataMethods.swift */; };
+		B9C0C4C01C4330560092E8D5 /* green22.png in Resources */ = {isa = PBXBuildFile; fileRef = B9C0C4BC1C4330560092E8D5 /* green22.png */; };
+		B9C0C4C11C4330560092E8D5 /* green44.png in Resources */ = {isa = PBXBuildFile; fileRef = B9C0C4BD1C4330560092E8D5 /* green44.png */; };
+		B9C0C4C21C4330560092E8D5 /* red22.png in Resources */ = {isa = PBXBuildFile; fileRef = B9C0C4BE1C4330560092E8D5 /* red22.png */; };
+		B9C0C4C31C4330560092E8D5 /* red44.png in Resources */ = {isa = PBXBuildFile; fileRef = B9C0C4BF1C4330560092E8D5 /* red44.png */; };
+		B9C0C4C81C4336D50092E8D5 /* BLE.m in Sources */ = {isa = PBXBuildFile; fileRef = B9C0C4C61C4336D50092E8D5 /* BLE.m */; };
+		B9C0C4CE1C4343F60092E8D5 /* UtilityMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9C0C4CD1C4343F60092E8D5 /* UtilityMethods.swift */; };
+		B9C0C4D21C434BDD0092E8D5 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = B9C0C4D11C434BDD0092E8D5 /* MBProgressHUD.m */; };
+		B9D5AF301C48207200D36249 /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D5AF2F1C48207200D36249 /* AppConstants.swift */; };
+		B9D5AF321C48602900D36249 /* ProfileCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D5AF311C48602900D36249 /* ProfileCell.swift */; };
+		B9D5AF381C4FFD1900D36249 /* UserProfile+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D5AF361C4FFD1900D36249 /* UserProfile+CoreDataProperties.swift */; };
+		B9D5AF391C4FFD1900D36249 /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D5AF371C4FFD1900D36249 /* UserProfile.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B91244D61C3C7ACC00D68B33 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B91244B61C3C7ACC00D68B33 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B91244BD1C3C7ACC00D68B33;
+			remoteInfo = "Swing-Forge-Settings";
+		};
+		B91244E11C3C7ACC00D68B33 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B91244B61C3C7ACC00D68B33 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B91244BD1C3C7ACC00D68B33;
+			remoteInfo = "Swing-Forge-Settings";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B91244BE1C3C7ACC00D68B33 /* Swing-Forge-Settings.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swing-Forge-Settings.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B91244C11C3C7ACC00D68B33 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B91244C61C3C7ACC00D68B33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B91244C91C3C7ACC00D68B33 /* Swing_Forge_Settings.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Swing_Forge_Settings.xcdatamodel; sourceTree = "<group>"; };
+		B91244CB1C3C7ACC00D68B33 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B91244CE1C3C7ACC00D68B33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B91244D01C3C7ACC00D68B33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B91244D51C3C7ACC00D68B33 /* Swing-Forge-SettingsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swing-Forge-SettingsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B91244D91C3C7ACC00D68B33 /* Swing_Forge_SettingsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swing_Forge_SettingsTests.swift; sourceTree = "<group>"; };
+		B91244DB1C3C7ACC00D68B33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B91244E01C3C7ACC00D68B33 /* Swing-Forge-SettingsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swing-Forge-SettingsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B91244E41C3C7ACC00D68B33 /* Swing_Forge_SettingsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swing_Forge_SettingsUITests.swift; sourceTree = "<group>"; };
+		B91244E61C3C7ACC00D68B33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B91244F71C3C7E4800D68B33 /* ProfileListTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProfileListTVC.swift; path = "Profile Management/ProfileListTVC.swift"; sourceTree = "<group>"; };
+		B9196B7F1C41DD6A001A49E6 /* ProfileSettingsTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileSettingsTVC.swift; sourceTree = "<group>"; };
+		B9196B851C42CF1F001A49E6 /* CoreDataMethods.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CoreDataMethods.swift; path = "Core Data/CoreDataMethods.swift"; sourceTree = "<group>"; };
+		B9C0C4BC1C4330560092E8D5 /* green22.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = green22.png; sourceTree = "<group>"; };
+		B9C0C4BD1C4330560092E8D5 /* green44.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = green44.png; sourceTree = "<group>"; };
+		B9C0C4BE1C4330560092E8D5 /* red22.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = red22.png; sourceTree = "<group>"; };
+		B9C0C4BF1C4330560092E8D5 /* red44.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = red44.png; sourceTree = "<group>"; };
+		B9C0C4C51C4336D50092E8D5 /* BLE.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLE.h; sourceTree = "<group>"; };
+		B9C0C4C61C4336D50092E8D5 /* BLE.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLE.m; sourceTree = "<group>"; };
+		B9C0C4C71C4336D50092E8D5 /* BLEDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLEDefines.h; sourceTree = "<group>"; };
+		B9C0C4CC1C4337850092E8D5 /* Swing-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Swing-Bridging-Header.h"; path = "Swing-Forge-Settings/Swing-Bridging-Header.h"; sourceTree = "<group>"; };
+		B9C0C4CD1C4343F60092E8D5 /* UtilityMethods.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UtilityMethods.swift; sourceTree = "<group>"; };
+		B9C0C4D01C434BDD0092E8D5 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		B9C0C4D11C434BDD0092E8D5 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		B9D5AF2F1C48207200D36249 /* AppConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppConstants.swift; sourceTree = "<group>"; };
+		B9D5AF311C48602900D36249 /* ProfileCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProfileCell.swift; path = "Profile Management/ProfileCell.swift"; sourceTree = "<group>"; };
+		B9D5AF361C4FFD1900D36249 /* UserProfile+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UserProfile+CoreDataProperties.swift"; path = "Core Data/UserProfile+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		B9D5AF371C4FFD1900D36249 /* UserProfile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UserProfile.swift; path = "Core Data/UserProfile.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B91244BB1C3C7ACC00D68B33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B91244D21C3C7ACC00D68B33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B91244DD1C3C7ACC00D68B33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B91244B51C3C7ACC00D68B33 = {
+			isa = PBXGroup;
+			children = (
+				B9C0C4CC1C4337850092E8D5 /* Swing-Bridging-Header.h */,
+				B91244C01C3C7ACC00D68B33 /* Swing-Forge-Settings */,
+				B91244D81C3C7ACC00D68B33 /* Swing-Forge-SettingsTests */,
+				B91244E31C3C7ACC00D68B33 /* Swing-Forge-SettingsUITests */,
+				B91244BF1C3C7ACC00D68B33 /* Products */,
+			);
+			sourceTree = "<group>";
+			usesTabs = 1;
+		};
+		B91244BF1C3C7ACC00D68B33 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B91244BE1C3C7ACC00D68B33 /* Swing-Forge-Settings.app */,
+				B91244D51C3C7ACC00D68B33 /* Swing-Forge-SettingsTests.xctest */,
+				B91244E01C3C7ACC00D68B33 /* Swing-Forge-SettingsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B91244C01C3C7ACC00D68B33 /* Swing-Forge-Settings */ = {
+			isa = PBXGroup;
+			children = (
+				B9C0C4BB1C4330320092E8D5 /* Graphics */,
+				B91244CD1C3C7ACC00D68B33 /* LaunchScreen.storyboard */,
+				B91244C51C3C7ACC00D68B33 /* Main.storyboard */,
+				B91244C11C3C7ACC00D68B33 /* AppDelegate.swift */,
+				B9D5AF2F1C48207200D36249 /* AppConstants.swift */,
+				B91244F71C3C7E4800D68B33 /* ProfileListTVC.swift */,
+				B9196B7F1C41DD6A001A49E6 /* ProfileSettingsTVC.swift */,
+				B9D5AF311C48602900D36249 /* ProfileCell.swift */,
+				B9C0C4CD1C4343F60092E8D5 /* UtilityMethods.swift */,
+				B91244CB1C3C7ACC00D68B33 /* Assets.xcassets */,
+				B91244D01C3C7ACC00D68B33 /* Info.plist */,
+				B9C0C4CF1C434BDD0092E8D5 /* MBProgressHUD */,
+				B9C0C4C41C4336D50092E8D5 /* BLE */,
+				B91244F61C3C7DEE00D68B33 /* Core Data */,
+			);
+			path = "Swing-Forge-Settings";
+			sourceTree = "<group>";
+		};
+		B91244D81C3C7ACC00D68B33 /* Swing-Forge-SettingsTests */ = {
+			isa = PBXGroup;
+			children = (
+				B91244D91C3C7ACC00D68B33 /* Swing_Forge_SettingsTests.swift */,
+				B91244DB1C3C7ACC00D68B33 /* Info.plist */,
+			);
+			path = "Swing-Forge-SettingsTests";
+			sourceTree = "<group>";
+		};
+		B91244E31C3C7ACC00D68B33 /* Swing-Forge-SettingsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B91244E41C3C7ACC00D68B33 /* Swing_Forge_SettingsUITests.swift */,
+				B91244E61C3C7ACC00D68B33 /* Info.plist */,
+			);
+			path = "Swing-Forge-SettingsUITests";
+			sourceTree = "<group>";
+		};
+		B91244F61C3C7DEE00D68B33 /* Core Data */ = {
+			isa = PBXGroup;
+			children = (
+				B91244C81C3C7ACC00D68B33 /* Swing_Forge_Settings.xcdatamodeld */,
+				B9196B851C42CF1F001A49E6 /* CoreDataMethods.swift */,
+				B9D5AF361C4FFD1900D36249 /* UserProfile+CoreDataProperties.swift */,
+				B9D5AF371C4FFD1900D36249 /* UserProfile.swift */,
+			);
+			name = "Core Data";
+			sourceTree = "<group>";
+		};
+		B9C0C4BB1C4330320092E8D5 /* Graphics */ = {
+			isa = PBXGroup;
+			children = (
+				B9C0C4BC1C4330560092E8D5 /* green22.png */,
+				B9C0C4BD1C4330560092E8D5 /* green44.png */,
+				B9C0C4BE1C4330560092E8D5 /* red22.png */,
+				B9C0C4BF1C4330560092E8D5 /* red44.png */,
+			);
+			name = Graphics;
+			sourceTree = "<group>";
+		};
+		B9C0C4C41C4336D50092E8D5 /* BLE */ = {
+			isa = PBXGroup;
+			children = (
+				B9C0C4C51C4336D50092E8D5 /* BLE.h */,
+				B9C0C4C61C4336D50092E8D5 /* BLE.m */,
+				B9C0C4C71C4336D50092E8D5 /* BLEDefines.h */,
+			);
+			path = BLE;
+			sourceTree = "<group>";
+		};
+		B9C0C4CF1C434BDD0092E8D5 /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				B9C0C4D01C434BDD0092E8D5 /* MBProgressHUD.h */,
+				B9C0C4D11C434BDD0092E8D5 /* MBProgressHUD.m */,
+			);
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B91244BD1C3C7ACC00D68B33 /* Swing-Forge-Settings */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B91244E91C3C7ACC00D68B33 /* Build configuration list for PBXNativeTarget "Swing-Forge-Settings" */;
+			buildPhases = (
+				B91244BA1C3C7ACC00D68B33 /* Sources */,
+				B91244BB1C3C7ACC00D68B33 /* Frameworks */,
+				B91244BC1C3C7ACC00D68B33 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Swing-Forge-Settings";
+			productName = "Swing-Forge-Settings";
+			productReference = B91244BE1C3C7ACC00D68B33 /* Swing-Forge-Settings.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B91244D41C3C7ACC00D68B33 /* Swing-Forge-SettingsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B91244EC1C3C7ACC00D68B33 /* Build configuration list for PBXNativeTarget "Swing-Forge-SettingsTests" */;
+			buildPhases = (
+				B91244D11C3C7ACC00D68B33 /* Sources */,
+				B91244D21C3C7ACC00D68B33 /* Frameworks */,
+				B91244D31C3C7ACC00D68B33 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B91244D71C3C7ACC00D68B33 /* PBXTargetDependency */,
+			);
+			name = "Swing-Forge-SettingsTests";
+			productName = "Swing-Forge-SettingsTests";
+			productReference = B91244D51C3C7ACC00D68B33 /* Swing-Forge-SettingsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B91244DF1C3C7ACC00D68B33 /* Swing-Forge-SettingsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B91244EF1C3C7ACC00D68B33 /* Build configuration list for PBXNativeTarget "Swing-Forge-SettingsUITests" */;
+			buildPhases = (
+				B91244DC1C3C7ACC00D68B33 /* Sources */,
+				B91244DD1C3C7ACC00D68B33 /* Frameworks */,
+				B91244DE1C3C7ACC00D68B33 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B91244E21C3C7ACC00D68B33 /* PBXTargetDependency */,
+			);
+			name = "Swing-Forge-SettingsUITests";
+			productName = "Swing-Forge-SettingsUITests";
+			productReference = B91244E01C3C7ACC00D68B33 /* Swing-Forge-SettingsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B91244B61C3C7ACC00D68B33 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = TMConsult;
+				TargetAttributes = {
+					B91244BD1C3C7ACC00D68B33 = {
+						CreatedOnToolsVersion = 7.2;
+						LastSwiftMigration = 0820;
+						ProvisioningStyle = Automatic;
+					};
+					B91244D41C3C7ACC00D68B33 = {
+						CreatedOnToolsVersion = 7.2;
+						LastSwiftMigration = 0820;
+						TestTargetID = B91244BD1C3C7ACC00D68B33;
+					};
+					B91244DF1C3C7ACC00D68B33 = {
+						CreatedOnToolsVersion = 7.2;
+						LastSwiftMigration = 0820;
+						TestTargetID = B91244BD1C3C7ACC00D68B33;
+					};
+				};
+			};
+			buildConfigurationList = B91244B91C3C7ACC00D68B33 /* Build configuration list for PBXProject "Swing-Forge-Settings" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B91244B51C3C7ACC00D68B33;
+			productRefGroup = B91244BF1C3C7ACC00D68B33 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B91244BD1C3C7ACC00D68B33 /* Swing-Forge-Settings */,
+				B91244D41C3C7ACC00D68B33 /* Swing-Forge-SettingsTests */,
+				B91244DF1C3C7ACC00D68B33 /* Swing-Forge-SettingsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B91244BC1C3C7ACC00D68B33 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B91244CF1C3C7ACC00D68B33 /* LaunchScreen.storyboard in Resources */,
+				B9C0C4C21C4330560092E8D5 /* red22.png in Resources */,
+				B91244CC1C3C7ACC00D68B33 /* Assets.xcassets in Resources */,
+				B91244C71C3C7ACC00D68B33 /* Main.storyboard in Resources */,
+				B9C0C4C01C4330560092E8D5 /* green22.png in Resources */,
+				B9C0C4C31C4330560092E8D5 /* red44.png in Resources */,
+				B9C0C4C11C4330560092E8D5 /* green44.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B91244D31C3C7ACC00D68B33 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B91244DE1C3C7ACC00D68B33 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B91244BA1C3C7ACC00D68B33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B91244C21C3C7ACC00D68B33 /* AppDelegate.swift in Sources */,
+				B9196B861C42CF1F001A49E6 /* CoreDataMethods.swift in Sources */,
+				B9C0C4CE1C4343F60092E8D5 /* UtilityMethods.swift in Sources */,
+				B9D5AF381C4FFD1900D36249 /* UserProfile+CoreDataProperties.swift in Sources */,
+				B9D5AF301C48207200D36249 /* AppConstants.swift in Sources */,
+				B9C0C4C81C4336D50092E8D5 /* BLE.m in Sources */,
+				B9196B801C41DD6A001A49E6 /* ProfileSettingsTVC.swift in Sources */,
+				B9C0C4D21C434BDD0092E8D5 /* MBProgressHUD.m in Sources */,
+				B9D5AF391C4FFD1900D36249 /* UserProfile.swift in Sources */,
+				B9D5AF321C48602900D36249 /* ProfileCell.swift in Sources */,
+				B91244CA1C3C7ACC00D68B33 /* Swing_Forge_Settings.xcdatamodeld in Sources */,
+				B91244F81C3C7E4800D68B33 /* ProfileListTVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B91244D11C3C7ACC00D68B33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B91244DA1C3C7ACC00D68B33 /* Swing_Forge_SettingsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B91244DC1C3C7ACC00D68B33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B91244E51C3C7ACC00D68B33 /* Swing_Forge_SettingsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B91244D71C3C7ACC00D68B33 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B91244BD1C3C7ACC00D68B33 /* Swing-Forge-Settings */;
+			targetProxy = B91244D61C3C7ACC00D68B33 /* PBXContainerItemProxy */;
+		};
+		B91244E21C3C7ACC00D68B33 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B91244BD1C3C7ACC00D68B33 /* Swing-Forge-Settings */;
+			targetProxy = B91244E11C3C7ACC00D68B33 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B91244C51C3C7ACC00D68B33 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B91244C61C3C7ACC00D68B33 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B91244CD1C3C7ACC00D68B33 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B91244CE1C3C7ACC00D68B33 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B91244E71C3C7ACC00D68B33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B91244E81C3C7ACC00D68B33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B91244EA1C3C7ACC00D68B33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = DCN5F6KXLS;
+				INFOPLIST_FILE = "Swing-Forge-Settings/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.swingforge.www;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Swing-Forge-Settings/Swing-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		B91244EB1C3C7ACC00D68B33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = DCN5F6KXLS;
+				INFOPLIST_FILE = "Swing-Forge-Settings/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.swingforge.www;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Swing-Forge-Settings/Swing-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		B91244ED1C3C7ACC00D68B33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Swing-Forge-SettingsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "TMConsult.Swing-Forge-SettingsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swing-Forge-Settings.app/Swing-Forge-Settings";
+			};
+			name = Debug;
+		};
+		B91244EE1C3C7ACC00D68B33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Swing-Forge-SettingsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "TMConsult.Swing-Forge-SettingsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swing-Forge-Settings.app/Swing-Forge-Settings";
+			};
+			name = Release;
+		};
+		B91244F01C3C7ACC00D68B33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Swing-Forge-SettingsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "TMConsult.Swing-Forge-SettingsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Swing-Forge-Settings";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		B91244F11C3C7ACC00D68B33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Swing-Forge-SettingsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "TMConsult.Swing-Forge-SettingsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Swing-Forge-Settings";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B91244B91C3C7ACC00D68B33 /* Build configuration list for PBXProject "Swing-Forge-Settings" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B91244E71C3C7ACC00D68B33 /* Debug */,
+				B91244E81C3C7ACC00D68B33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B91244E91C3C7ACC00D68B33 /* Build configuration list for PBXNativeTarget "Swing-Forge-Settings" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B91244EA1C3C7ACC00D68B33 /* Debug */,
+				B91244EB1C3C7ACC00D68B33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B91244EC1C3C7ACC00D68B33 /* Build configuration list for PBXNativeTarget "Swing-Forge-SettingsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B91244ED1C3C7ACC00D68B33 /* Debug */,
+				B91244EE1C3C7ACC00D68B33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B91244EF1C3C7ACC00D68B33 /* Build configuration list for PBXNativeTarget "Swing-Forge-SettingsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B91244F01C3C7ACC00D68B33 /* Debug */,
+				B91244F11C3C7ACC00D68B33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B91244C81C3C7ACC00D68B33 /* Swing_Forge_Settings.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B91244C91C3C7ACC00D68B33 /* Swing_Forge_Settings.xcdatamodel */,
+			);
+			currentVersion = B91244C91C3C7ACC00D68B33 /* Swing_Forge_Settings.xcdatamodel */;
+			path = Swing_Forge_Settings.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B91244B61C3C7ACC00D68B33 /* Project object */;
+}
